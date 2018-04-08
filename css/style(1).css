@@ -190,7 +190,7 @@ body a {
 /* -------------------------------------------------------------------------------- */
 
 .homebg {
-	background: url(images/icons/1x/homebg.jpg) top repeat-x;
+	background: url(../images/homebg.jpg) top repeat-x;
 }
 .section {
 	position: relative;
