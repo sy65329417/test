@@ -350,7 +350,7 @@ body a {
 	display: block;
 	width: 68px;
 	height: 68px;
-	background: url(images/icons/1x/spyglass-w.png) no-repeat center;
+	background: url(../images/spyglass-w.png) no-repeat center;
 	background-size: 24px auto;
 	-webkit-opacity: 0.5;
 	-moz-opacity: 0.5;
@@ -702,7 +702,7 @@ body a {
 	right: 5%;
 	height: 38px;
 	width: 26px;
-	background: #2B3542 url(images/icons/1x/tack-w.png) no-repeat center;
+	background: #2B3542 url(../images/tack-w.png) no-repeat center;
 	background-size: 12px auto;
 	top: 0;
 	text-indent: -9999px;
@@ -831,34 +831,34 @@ body a {
 	color: #0087ff;
 }
 .posts .post-meta a.post-date {
-	background-image: url(images/icons/1x/clock-g.png);
+	background-image: url(../images/clock-g.png);
 }
 .posts .post-meta a.post-date:hover {
-	background-image: url(images/icons/1x/clock-c.png);
+	background-image: url(../images/clock-c.png);
 }
 .posts .post-meta a.zilla-likes {
-	background-image: url(images/icons/1x/heart-g.png);
+	background-image: url(../images/heart-g.png);
 }
 .posts .post-meta a.zilla-likes:hover, .posts .post-meta a.zilla-likes.active {
-	background-image: url(images/icons/1x/heart-c.png);
+	background-image: url(../images/heart-c.png);
 	color: #0087ff;
 }
 .posts .post-meta a.post-comments {
-	background-image: url(images/icons/1x/comment-g.png);
+	background-image: url(../images/comment-g.png);
 }
 .posts .post-meta a.post-comments:hover {
-	background-image: url(images/icons/1x/comment-c.png);
+	background-image: url(../images/comment-c.png);
 }
 .posts .post-meta a.post-edit-link {
 	height: 59px;
 	width: 20px;
 	text-indent: -9999px;
-	background-image: url(images/icons/1x/edit-g.png);
+	background-image: url(../images/edit-g.png);
 	background-size: 20px auto;
 	background-position: center;
 }
 .posts .post-meta a.post-edit-link:hover {
-	background-image: url(images/icons/1x/edit-c.png);
+	background-image: url(../images/edit-c.png);
 }
 /*  Post formats  ----------------------------------------- */
 
@@ -928,7 +928,7 @@ body a {
 .post-link a {
 	color: #0087ff;
 	padding-left: 23px;
-	background: url(images/icons/1x/link-c.png) no-repeat left center;
+	background: url(../images/link-c.png) no-repeat left center;
 	background-size: 16px auto;
 }
 .post-link a:hover {
@@ -960,11 +960,11 @@ body a {
 }
 .format-gallery .flex-direction-nav .flex-prev {
 	left: 16px;
-	background-image: url(images/icons/1x/chevron-left-w-shade.png);
+	background-image: url(../images/chevron-left-w-shade.png);
 }
 .format-gallery .flex-direction-nav .flex-next {
 	right: 16px;
-	background-image: url(images/icons/1x/chevron-right-w-shade.png);
+	background-image: url(../images/chevron-right-w-shade.png);
 }
 .format-gallery .flex-direction-nav a:hover {
 	-webkit-opacity: 1;
@@ -1051,10 +1051,10 @@ body.single .content.center {
 	margin-top: -21px;
 }
 .single .format-gallery .flex-direction-nav .flex-prev {
-	background-image: url(images/icons/1x/chevron-left-w-shade-big.png);
+	background-image: url(../images/chevron-left-w-shade-big.png);
 }
 .single .format-gallery .flex-direction-nav .flex-next {
-	background-image: url(images/icons/1x/chevron-right-w-shade-big.png);
+	background-image: url(../images/chevron-right-w-shade-big.png);
 }
 /* format quote */
 
@@ -1105,10 +1105,10 @@ body.single .content.center {
 .single .post-meta p.post-date {
 }
 .single .post-meta a.zilla-likes {
-	background-image: url(images/icons/1x/heart-g.png);
+	background-image: url(../images/heart-g.png);
 }
 .single .post-meta a.zilla-likes:hover {
-	background-image: url(images/icons/1x/heart-c.png);
+	background-image: url(../images/heart-c.png);
 }
 .single .post-meta p.post-categories {
 }
@@ -1134,23 +1134,23 @@ body.single .content.center {
 	margin-top: 0;
 }
 a.post-nav-prev {
-	background-image: url(images/icons/1x/prev-g.png);
+	background-image: url(../images/prev-g.png);
 }
 a.post-nav-prev:hover {
-	background-image: url(images/icons/1x/prev-c.png);
+	background-image: url(../images/prev-c.png);
 }
 a.post-nav-next {
-	background-image: url(images/icons/1x/next-g.png);
+	background-image: url(../images/next-g.png);
 }
 a.post-nav-next:hover {
-	background-image: url(images/icons/1x/next-c.png);
+	background-image: url(../images/next-c.png);
 }
 .single a.post-edit-link {
-	background-image: url(images/icons/1x/edit-g.png);
+	background-image: url(../images/edit-g.png);
 	background-position: left 5px;
 }
 .single a.post-edit-link:hover {
-	background-image: url(images/icons/1x/edit-c.png);
+	background-image: url(../images/edit-c.png);
 }
 /* post-author */
 .wauth {
@@ -1189,7 +1189,7 @@ a.post-nav-next:hover {
 	top: 0;
 	width: 40px;
 	height: 70px;
-	background: #0087ff url(images/icons/1x/author-w.png) no-repeat center 29px;
+	background: #0087ff url(../images/author-w.png) no-repeat center 29px;
 	background-size: 22px auto;
 }
 .post-author:after {
@@ -1232,16 +1232,16 @@ a.post-nav-next:hover {
 	margin-left: 0;
 }
 .author-links a.author-link-posts {
-	background-image: url(images/icons/1x/archive-w.png);
+	background-image: url(../images/archive-w.png);
 }
 .author-links a.author-link-website {
-	background-image: url(images/icons/1x/home-w.png);
+	background-image: url(../images/home-w.png);
 }
 .author-links a.author-link-mail {
-	background-image: url(images/icons/1x/social/mail-w.png);
+	background-image: url(../images/social/mail-w.png);
 }
 .author-links a.author-link-twitter {
-	background-image: url(images/icons/1x/social/twitter-w.png);
+	background-image: url(../images/social/twitter-w.png);
 }
 .author-links a:hover {
 	background-color: #0087ff;
@@ -1659,7 +1659,7 @@ img.alignleft, .alignleft img, img.aligncenter, .aligncenter img, img.alignright
 	display: block;
 	width: 32px;
 	height: 32px;
-	background: #0087ff url(images/icons/1x/author-w.png) no-repeat center 8px;
+	background: #0087ff url(../images/author-w.png) no-repeat center 8px;
 	background-size: 14px auto;
 	border-radius: 999px;
 	position: absolute;
@@ -1786,10 +1786,10 @@ img.alignleft, .alignleft img, img.aligncenter, .aligncenter img, img.alignright
 	margin-left: -8px;
 }
 .comment-actions .comment-reply-link {
-	background-image: url(images/icons/1x/reply-w.png)
+	background-image: url(../images/reply-w.png)
 }
 .comment-actions .comment-edit-link {
-	background-image: url(images/icons/1x/edit-w.png)
+	background-image: url(../images/edit-w.png)
 }
 .comment-actions a:hover {
 	background-color: #0087ff;
@@ -1909,13 +1909,13 @@ img.alignleft, .alignleft img, img.aligncenter, .aligncenter img, img.alignright
 	background-size: auto 24px;
 }
 input#author {
-	background-image: url(images/icons/1x/author-g.png);
+	background-image: url(../images/author-g.png);
 }
 input#email {
-	background-image: url(images/icons/1x/social/mail-g.png);
+	background-image: url(../images/social/mail-g.png);
 }
 input#url {
-	background-image: url(images/icons/1x/home-g.png);
+	background-image: url(../images/home-g.png);
 	background-size: 24px auto;
 }
 .comment-form textarea {
@@ -1927,13 +1927,13 @@ input#url {
 	background-color: #2B3542;
 }
 input#author:focus {
-	background-image: url(images/icons/1x/author-w.png);
+	background-image: url(../images/author-w.png);
 }
 input#email:focus {
-	background-image: url(images/icons/1x/social/mail-w.png);
+	background-image: url(../images/social/mail-w.png);
 }
 input#url:focus {
-	background-image: url(images/icons/1x/home-w.png);
+	background-image: url(../images/home-w.png);
 }
 .form-allowed-tags, .form-allowed-tags code {
 	line-height: 160%;
@@ -2061,10 +2061,10 @@ p.form-submit {
 
 
 .single .post-meta p.image-resolution {
-	background-image: url(images/icons/1x/image-g.png);
+	background-image: url(../images/image-g.png);
 }
 .single-attachment .post-author:before {
-	background-image: url(images/icons/1x/image-w.png);
+	background-image: url(../images/image-w.png);
 	background-position: center 32px;
 }
 /* -------------------------------------------------------------------------------- */
@@ -2250,12 +2250,12 @@ p.form-submit {
 	margin-top: -18px;
 	right: 10px;
 	text-indent: -9999px;
-	background: url(images/icons/1x/spyglass-g.png) no-repeat center;
+	background: url(../images/spyglass-g.png) no-repeat center;
 	background-size: 24px auto;
 }
 .wrapper .searchform .searchsubmit:hover, .footer .searchform .searchsubmit:hover {
 	cursor: pointer;
-	background-image: url(images/icons/1x/spyglass-c.png);
+	background-image: url(../images/spyglass-c.png);
 }
 /* Widget calendar --------------------------------------- */
 
@@ -2445,7 +2445,7 @@ p.form-submit {
 .credits-left {
 	float: left;
 	margin-left: 20px;
-	background: url(images/icons/1x/1dclogo.png) left no-repeat;
+	background: url(../images/1dclogo.png) left no-repeat;
 	height: 38px;
 }
 .credits a {
@@ -2468,136 +2468,136 @@ img#wpstats {
 /* 2X images */
 
 .search-toggle {
-	background-image: url(images/icons/2x/spyglass-w.png);
+	background-image: url(../images/spyglass-w.png);
 }
 .dclogo {
 	background-image: url(../images/logo_little.png);
 	background-size: 100%;
 }
 .post .sticky-post {
-	background-image: url(images/icons/2x/tack-w.png);
+	background-image: url(../images/tack-w.png);
 }
 
 .uxicon a.ic_face {
-	background: url(images/icons/2x/ic_face.png) center no-repeat !important;
+	background: url(../images/ic_face.png) center no-repeat !important;
 	background-size: 70%!important;
 }
 .uxicon a.ic_phone {
-	background: url(images/icons/2x/ic_dialer_sip.png) center no-repeat!important;
+	background: url(../images/ic_dialer_sip.png) center no-repeat!important;
 	background-size: 70%!important;
 }
 .uxicon a.ic_dev {
-	background: url(images/icons/2x/ic_dvr.png) center no-repeat!important;
+	background: url(../images/ic_dvr.png) center no-repeat!important;
 	background-size: 70%!important;
 }
 .uxicon a.ic_wechat {
-	background: url(images/icons/2x/ic_wechat.png) center no-repeat!important;
+	background: url(../images/ic_wechat.png) center no-repeat!important;
 	background-size: 70%!important;
 }
 .uxdesign {
-	background: #fff url(images/icons/2x/uxdesign.jpg) center no-repeat!important;
+	background: #fff url(../images/uxdesign.jpg) center no-repeat!important;
 	background-size: 40%!important;
 }
 .brand {
-	background: #fff url(images/icons/2x/brand.jpg) center no-repeat!important;
+	background: #fff url(../images/brand.jpg) center no-repeat!important;
 	background-size: 40%!important;
 }
 .research {
-	background: #fff url(images/icons/2x/researcher.jpg) center no-repeat!important;
+	background: #fff url(../images/researcher.jpg) center no-repeat!important;
 	background-size: 40%!important;
 }
 .posts .post-meta a.post-date {
-	background-image: url(images/icons/2x/clock-g.png);
+	background-image: url(../images/clock-g.png);
 }
 .posts .post-meta a.post-date:hover {
-	background-image: url(images/icons/2x/clock-c.png);
+	background-image: url(../images/clock-c.png);
 }
 .posts .post-meta a.zilla-likes {
-	background-image: url(images/icons/2x/heart-g.png);
+	background-image: url(../images/heart-g.png);
 }
 .posts .post-meta a.zilla-likes:hover,  .posts .post-meta a.zilla-likes.active {
-	background-image: url(images/icons/2x/heart-c.png);
+	background-image: url(../images/heart-c.png);
 }
 .posts .post-meta a.post-comments {
-	background-image: url(images/icons/2x/comment-g.png);
+	background-image: url(../images/comment-g.png);
 }
 .posts .post-meta a.post-comments:hover {
-	background-image: url(images/icons/2x/comment-c.png);
+	background-image: url(../images/comment-c.png);
 }
 .post-link a {
-	background-image: url(images/icons/2x/link-c.png);
+	background-image: url(../images/link-c.png);
 }
 .format-gallery .flex-direction-nav .flex-prev,  .single .format-gallery .flex-direction-nav .flex-prev {
-	background-image: url(images/icons/2x/chevron-left-w-shade.png);
+	background-image: url(../images/chevron-left-w-shade.png);
 }
 .format-gallery .flex-direction-nav .flex-next,  .single .format-gallery .flex-direction-nav .flex-next {
-	background-image: url(images/icons/2x/chevron-right-w-shade.png);
+	background-image: url(../images/chevron-right-w-shade.png);
 }
 .single .post-meta p.post-date {
-	background-image: url(images/icons/2x/clock-g.png);
+	background-image: url(../images/clock-g.png);
 }
 .single .post-meta a.zilla-likes {
-	background-image: url(images/icons/2x/heart-g.png);
+	background-image: url(../images/heart-g.png);
 }
 .single .post-meta a.zilla-likes:hover {
-	background-image: url(images/icons/2x/heart-c.png);
+	background-image: url(../images/heart-c.png);
 }
 .single .post-meta p.post-categories {
-	background-image: url(images/icons/2x/folder-g.png);
+	background-image: url(../images/folder-g.png);
 }
 .single .post-meta p.post-tags {
-	background-image: url(images/icons/2x/tag-g.png);
+	background-image: url(../images/tag-g.png);
 }
 .author-links a.author-link-posts {
-	background-image: url(images/icons/2x/archive-w.png);
+	background-image: url(../images/archive-w.png);
 }
 .author-links a.author-link-website {
-	background-image: url(images/icons/2x/home-w.png);
+	background-image: url(../images/home-w.png);
 }
 .author-links a.author-link-mail {
-	background-image: url(images/icons/2x/social/mail-w.png);
+	background-image: url(../images/social/mail-w.png);
 }
 .author-links a.author-link-twitter {
-	background-image: url(images/icons/2x/social/twitter-w.png);
+	background-image: url(../images/social/twitter-w.png);
 }
 .comment.bypostauthor:after {
-	background-image: url(images/icons/2x/author-w.png);
+	background-image: url(../images/author-w.png);
 }
 .comment-actions .comment-reply-link {
-	background-image: url(images/icons/2x/reply-w.png);
+	background-image: url(../images/reply-w.png);
 }
 .comment-actions .comment-edit-link {
-	background-image: url(images/icons/2x/edit-w.png);
+	background-image: url(../images/edit-w.png);
 }
 input#author {
-	background-image: url(images/icons/2x/author-g.png);
+	background-image: url(../images/author-g.png);
 }
 input#email {
-	background-image: url(images/icons/2x/social/mail-g.png);
+	background-image: url(../images/social/mail-g.png);
 }
 input#url {
-	background-image: url(images/icons/2x/home-g.png);
+	background-image: url(../images/home-g.png);
 }
 input#author:focus {
-	background-image: url(images/icons/2x/author-w.png);
+	background-image: url(../images/author-w.png);
 }
 input#email:focus {
-	background-image: url(images/icons/2x/social/mail-w.png);
+	background-image: url(../images/social/mail-w.png);
 }
 input#url:focus {
-	background-image: url(images/icons/2x/home-w.png);
+	background-image: url(../images/home-w.png);
 }
 .single .post-meta p.image-resolution {
-	background-image: url(images/icons/2x/image-g.png);
+	background-image: url(../images/image-g.png);
 }
 .single-attachment .post-author:before {
-	background-image: url(images/icons/2x/image-w.png);
+	background-image: url(../images/image-w.png);
 }
 .searchform .searchsubmit {
-	background-image: url(images/icons/2x/spyglass-g.png);
+	background-image: url(../images/spyglass-g.png);
 }
 .searchform .searchsubmit:hover {
-	background-image: url(images/icons/2x/spyglass-c.png);
+	background-image: url(../images/spyglass-c.png);
 }
 }
 
@@ -2799,7 +2799,7 @@ body.single .content {
 	
 	width: 100%;
 	height: 160px !important;
-	background: url(images/icons/1x/1dc.jpg) no-repeat top;
+	background: url(../images/1dc.jpg) no-repeat top;
 	background-size: 200% !important;
 }	
 .wplc{display: none;}
@@ -2855,14 +2855,14 @@ body.single .content {
 .form-res-header {
 	width: 100%;
 	height: 200px !important;
-	background: url(images/icons/1x/formtop_bg.png) top left repeat-x;
+	background: url(../images/formtop_bg.png) top left repeat-x;
 	border-bottom: #ccc dashed 1px;
 	text-align: center !important;
 }
 .wx-header {
 	width: 100%;
 	height: 200px !important;
-	background: url(images/icons/1x/formtop_bg.png) top left repeat-x;
+	background: url(../images/formtop_bg.png) top left repeat-x;
 	border-bottom: #ccc dashed 1px;
 	text-align: center !important;
 
@@ -2891,7 +2891,7 @@ body.single .content {
 .form-res-post {
 	width: 100%;
 	position: relative;
-	background: #ffffff url(images/icons/1x/formres_bg.png) center no-repeat;
+	background: #ffffff url(../images/formres_bg.png) center no-repeat;
 	background-position: center 40%;
 	background-size: 100% !important;
 	border-radius: 3px;
@@ -2903,7 +2903,7 @@ body.single .content {
 .wx-post {
 	width: 100%;
 	position: relative;
-	background: #ffffff url(images/icons/1x/wx_bg.png) center no-repeat;
+	background: #ffffff url(../images/wx_bg.png) center no-repeat;
 	background-position: center 40%;
 	background-size: 100% !important;
 	border-radius: 3px;
@@ -2993,7 +2993,7 @@ body.single .content {
 	position: relative;
 	border-radius: none !important;
 	box-shadow: none !important;
-	background: url(images/icons/1x/aboutusbg.jpg) top no-repeat !important;
+	background: url(../images/aboutusbg.jpg) top no-repeat !important;
 	background-size: cover !important;
 }
 .aboutuscontent p {
@@ -3018,7 +3018,7 @@ body.single .content {
 	background: #12151A;
 	height: 440px !important;
 	overflow: hidden !important;
-	background: #12151A url(images/icons/1x/deskbg.png) top no-repeat  !important;
+	background: #12151A url(../images/deskbg.png) top no-repeat  !important;
 	background-size:200% !important;
 }
 .deskbg img.deskbgimg{
@@ -3198,7 +3198,7 @@ body.single .content {
 .form-header {
 	width: 90%;
 	height: 120px !important;
-	background: url(images/icons/1x/form-header-bg.png) top left 24px no-repeat!important;
+	background: url(../images/form-header-bg.png) top left 24px no-repeat!important;
 	background-size: 100% !important;
 	border-bottom: #ccc dashed 1px;
 	margin: 0 5% 0 5%;
@@ -3560,7 +3560,7 @@ body {
 	-webkit-box-shadow: 0 14px 24px rgba(0,0,0,0.05);
 	-moz-box-shadow: 0 14px 24px rgba(0,0,0,0.05);
 	box-shadow: 0 14px 24px rgba(0,0,0,0.05);
-	background: #fff url(images/icons/1x/dchomebg.png) right no-repeat;
+	background: #fff url(../images/dchomebg.png) right no-repeat;
 }
 .dchomebanner .leftpart {
 	margin: 64px;
@@ -3624,10 +3624,10 @@ body {
 	text-align: center;
 }
 .userin ul.userqa {
-	background: url(images/icons/1x/userqa_bg.png) no-repeat center;
+	background: url(../images/userqa_bg.png) no-repeat center;
 }
 .userin ul.userbb {
-	background: url(images/icons/1x/userbb_bg.png) no-repeat center;
+	background: url(../images/userbb_bg.png) no-repeat center;
 }
 .uxicon ul li {
 	text-align: center;
@@ -3645,16 +3645,16 @@ body {
 	margin: 0 auto;
 }
 .uxicon a.ic_face {
-	background: url(images/icons/1x/ic_face.png) center no-repeat;
+	background: url(../images/ic_face.png) center no-repeat;
 }
 .uxicon a.ic_phone {
-	background: url(images/icons/1x/ic_dialer_sip.png) center no-repeat;
+	background: url(../images/ic_dialer_sip.png) center no-repeat;
 }
 .uxicon a.ic_dev {
-	background: url(images/icons/1x/ic_dvr.png) center no-repeat;
+	background: url(../images/ic_dvr.png) center no-repeat;
 }
 .uxicon a.ic_wechat {
-	background: url(images/icons/1x/ic_wechat.png) center no-repeat;
+	background: url(../images/ic_wechat.png) center no-repeat;
 }
 .uxicon ul li.iconpic a:hover {
 	opacity: 0.4;
@@ -3687,7 +3687,7 @@ body {
 .formpost {
 	width: 100%;
 	position: relative;
-	background: #fff url(images/icons/1x/form-content-bg.png) bottom right no-repeat;
+	background: #fff url(../images/form-content-bg.png) bottom right no-repeat;
 	border-radius: 3px;
 	-webkit-box-shadow: 0 14px 24px rgba(0,0,0,0.05);
 	-moz-box-shadow: 0 14px 24px rgba(0,0,0,0.05);
@@ -3706,7 +3706,7 @@ body {
 .form-res-post {
 	width: 100%;
 	position: relative;
-	background: #ffffff url(images/icons/1x/formres_bg.png) center no-repeat;
+	background: #ffffff url(../images/formres_bg.png) center no-repeat;
 	background-position: center 60%;
 	border-radius: 3px;
 	-webkit-box-shadow: 0 14px 24px rgba(0,0,0,0.05);
@@ -3717,7 +3717,7 @@ body {
 .wx-post {
 	width: 100%;
 	position: relative;
-	background: #ffffff url(images/icons/1x/wx_bg.png) center no-repeat;
+	background: #ffffff url(../images/wx_bg.png) center no-repeat;
 	background-position: center 60%;
 	border-radius: 3px;
 	-webkit-box-shadow: 0 14px 24px rgba(0,0,0,0.05);
@@ -3737,7 +3737,7 @@ body {
 .form-header {
 	width: 90%;
 	height: 240px;
-	background: url(images/icons/1x/form-header-bg.png) top left no-repeat;
+	background: url(../images/form-header-bg.png) top left no-repeat;
 	border-bottom: #ccc dashed 1px;
 	margin: 0 5% 0 5%;
 }
@@ -3764,7 +3764,7 @@ body {
 .form-res-header {
 	width: 100%;
 	height: 240px;
-	background: url(images/icons/1x/formtop_bg.png) top left repeat-x;
+	background: url(../images/formtop_bg.png) top left repeat-x;
 	border-bottom: #ccc dashed 1px;
 	text-align: center !important;
 }
@@ -3797,7 +3797,7 @@ body {
 .wx-header {
 	width: 100%;
 	height: 260px;
-	background: url(images/icons/1x/wxtop_bg.png) top left repeat-x;
+	background: url(../images/wxtop_bg.png) top left repeat-x;
 	border-bottom: #ccc dashed 1px;
 	text-align: center !important;
 }
@@ -3870,7 +3870,7 @@ body {
 	
 	width: 100%;
 	height: 600px;
-	background: url(images/icons/1x/1dc.jpg) no-repeat center;
+	background: url(../images/1dc.jpg) no-repeat center;
 }
 .about1dc {
 	padding: 0 !important;
@@ -3891,7 +3891,7 @@ body {
 	overflow: hidden;
 	position: relative;
 	border-radius: 3px;
-	background: url(images/icons/1x/aboutusbg.jpg) top no-repeat;
+	background: url(../images/aboutusbg.jpg) top no-repeat;
 }
 .aboutuscontent {
 	max-width: 90%;
@@ -3998,7 +3998,7 @@ body {
 	-webkit-box-shadow: 0 14px 24px rgba(0,0,0,0.05);
 	-moz-box-shadow: 0 14px 24px rgba(0,0,0,0.05);
 	box-shadow: 0 14px 24px rgba(0,0,0,0.05);
-	background: url(images/icons/1x/joinusbg.jpg) repeat-x;
+	background: url(../images/joinusbg.jpg) repeat-x;
 }
 .aboutuscontent .join .joinright {
 	right: 40px;
@@ -4072,13 +4072,13 @@ body {
 	font-size: 22px;
 }
 .uxdesign {
-	background: #fff url(images/icons/1x/uxdesign.jpg) center no-repeat;
+	background: #fff url(../images/uxdesign.jpg) center no-repeat;
 }
 .brand {
-	background: #fff url(images/icons/1x/brand.jpg) center no-repeat;
+	background: #fff url(../images/brand.jpg) center no-repeat;
 }
 .research {
-	background: #fff url(images/icons/1x/researcher.jpg) center no-repeat;
+	background: #fff url(../images/researcher.jpg) center no-repeat;
 }
 
 .w90{
