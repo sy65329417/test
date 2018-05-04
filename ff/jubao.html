@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class=" portrait">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<title>举报骚扰电话</title>
+<script type="text/javascript">  
+  var phoneWidth=parseInt(window.screen.width);  
+  var phoneScale=phoneWidth / 640;  
+  var ua=navigator.userAgent;  
+  if (/Android (\d+\.\d+)/.test(ua)) {  
+  var version=parseFloat(RegExp.$1);  
+  if (version > 2.3) {  
+    document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');  
+  } else {  
+    document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');  
+  }  
+  } else {  
+  document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');  
+  }  
+</script>
+	<style>
+		/*yee 2018.5.4*/
+/*公用*/
+body,h1,h2,h3,p,ul,ol,form,fieldset,figure {
+	margin: 0;
+	padding: 0;
+}
+html{font-size:62.5%; /* 10÷16=62.5% */} body{font-size:12px;font-size:1.2rem ; /* 12÷10=1.2 */} p{font-size:14px;font-size:1.4rem; font-family:'微软雅黑';}
+div,figure,img,input,button {
+	box-sizing: border-box;
+}
+body {
+	background-color: #f5f5f5;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+img {
+	max-width: 100%;
+}
+ul,ol {
+	list-style: outside none none;
+}
+a {
+	text-decoration: none;
+}
+.none {
+	display: none;
+}
+.sm-visible {
+	display: none;
+}
+.clearfix:after {
+	content:".";  
+	height:0;  
+	visibility:hidden;  
+	display:block;  
+	clear:both;  
+}
+/*  媒体查询   */
+/*当页面大于1200px 时，大屏幕，主要是PC 端*/
+@media (min-width: 1200px) {	
+}
+/*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
+@media (min-width: 992px) and (max-width: 1199px) {	
+}	
+/*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 480px) and (max-width: 767px) {	
+
+}
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 479px) {	
+}
+		.bg{width: 640px; height: 1325px; background: url(bg.jpg) no-repeat; margin: 0 auto; overflow: hidden;}
+		.bg .wz{text-align: center; font-size: 2.8rem; margin-top: 870px; color: #fff; letter-spacing: 1px;}
+	</style>
+</head>
+<body>
+	<div class="bg">
+		<a href="http://www.12321.cn"><div class="wz">我要举报</div></a>
+	</div>
+</body>
+</html>
