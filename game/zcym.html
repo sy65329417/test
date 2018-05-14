@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<link href="css/nav.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery1.8.3.js" type="text/javascript"></script>
+<title>找茬页面</title>
+<script type="text/javascript">  
+  var phoneWidth=parseInt(window.screen.width);  
+  var phoneScale=phoneWidth / 640;  
+  var ua=navigator.userAgent;  
+  if (/Android (\d+\.\d+)/.test(ua)) {  
+  var version=parseFloat(RegExp.$1);  
+  if (version > 2.3) {  
+    document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');  
+  } else {  
+    document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');  
+  }  
+  } else {  
+  document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');  
+  }  
+</script>
+<!--5.8-->
+<script> 
+function showHidebg(){  
+        $("#hidebg1").css("height",$(document).height());  
+        $("#hidebg1").css("width",$(document).width());  
+        $("#hidebg1").show();  
+    }  
+    //让指定的DIV始终显示在屏幕正中间  
+    function letDivCenter(divName){   
+        var top = ($(window).height() - $(divName).height())/3;   
+        var left = ($(window).width() - $(divName).width())/2;   
+        var scrollTop = $(document).scrollTop();   
+        var scrollLeft = $(document).scrollLeft();   
+        $(divName).css( { position : 'absolute', 'top' : top + scrollTop, left : left + scrollLeft } ).show();  
+    }  
+    function showAll(divName){  
+        showHidebg();  
+        letDivCenter(divName);  
+    }  
+function hide2()  //去除隐藏层和弹出层 
+{ 
+   document.getElementById("hidebg1").style.display="none"; 
+   document.getElementById("hidebox2").style.display="none"; 
+} 
+function hide3()  //去除隐藏层和弹出层 
+{ 
+   document.getElementById("hidebg1").style.display="none"; 
+   document.getElementById("hidebox3").style.display="none"; 
+} 
+
+</script>	
+<!--end-->
+</head>
+<body>
+	<div class="w640">
+		<div class="zc">
+			<div class="left">
+				<div class="l_1">
+					1/3
+				</div>
+				<div class="l_2">
+					<div class="sz">
+						8
+					</div>
+				</div>
+				<div class="l_3">
+					<img src="images/pur.png" id="play">
+				</div>
+				<div class="l_4">
+				</div>
+				<div class="l_5" onclick="showAll('#hidebox2')">
+				</div>
+				<div class="l_6" onclick="showAll('#hidebox3')">
+				</div>
+			</div>
+			<div class="right">
+				<div class="r_n">
+					<div class="fish">
+						<div class="barline" id="probar">
+						<!--<span id="percent"></span>-->
+						<div id="line" h="100" style="height:0px;"></div>	
+					</div>
+					</div>
+					<div class="r_b" id="d1" style="display: none;">
+						<div class="img1">
+							<div class="t_1">
+								<div class="change"></div>
+							</div>
+							<div class="t_2">
+								<div class="change"></div>
+							</div>
+							<div class="t_3">
+								<div class="change_1"></div>
+							</div>
+							<div class="t_4">
+								<div class="change"></div>
+							</div>
+							<img src="images/p1.png">
+						</div>
+						<div class="img2">
+							<div class="t_5">
+								<div class="change"></div>
+							</div>
+							<div class="t_2">
+								<div class="change"></div>
+							</div>
+							<div class="t_3">
+								<div class="change_1"></div>
+							</div>
+							<div class="t_4">
+								<div class="change"></div>
+							</div>
+							<img src="images/p1_d.png">
+						</div>
+					</div>
+					<div class="r_p" id="d2" style="display: block;"><img src="images/diff.png"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<!--兑换放大镜-->
+<div id="hidebg1"></div> 
+    <div id="hidebox2">
+        <div class="dh_fd">
+			<img src="images/xx.png" class="xx" onClick="hide2();">
+			<div class="dd">
+				<span class="input-number-decrement_1"></span><input class="input-number_2" type="text" value="1" min="0" max="10"><span class="input-number-increment_1"></span>
+			</div>
+			<div class="wd">
+				您将消耗<a>120M</a>流量，剩余<a>0M</a>流量
+			</div>
+			<a onclick="hide2()"><div class="du">
+				<img src="images/fd_2.png">
+			</div>
+			</a>
+		</div>
+	</div>
+	
+	<div id="hidebox3">
+        <div class="dh_fd">
+			<img src="images/xx.png" class="xx" onClick="hide3();">
+			<div class="dd">
+				<span class="input-number-decrement_1"></span><input class="input-number_3" type="text" value="1" min="0" max="10"><span class="input-number-increment_1"></span>
+			</div>
+			<div class="wd">
+				您将消耗<a>120M</a>流量，剩余<a>0M</a>流量
+			</div>
+			<a onclick="hide3()"><div class="du">
+				<img src="images/fd_2.png">
+			</div>
+			</a>
+		</div>
+	</div>
+<!--end-->
+
+<!--进度条-->
+<script language="javascript">
+function si(){
+	var time = window.setInterval(function(){
+		a=$("#line").height();
+		b=(a/200*100).toFixed(0);
+		/*
+		$("#percent").html(b+"%");
+		$("#percent").css({"top":(a-0)+"px"});
+		*/
+		if(b==100) {
+			clearInterval(time);
+			play.src = "images/pur.png";
+		}
+	},70);
+}
+function processerbar(time){
+	$("#probar").css({"display":"block"});
+	$("#line").each(function(i,item){
+		var a=parseInt($(item).attr("h"));
+		$(item).animate({
+			height: a+"%"
+		},time);
+	});
+   si();
+};
+	var onOff = true;
+	$("#play").click(function(){
+		if(onOff === true){
+			processerbar(50000);
+			play.src = "images/begin.png";
+			onOff= false;
+		}else{
+			$("#line").stop();
+			play.src = "images/pur.png";
+			onOff = true;
+		}
+	});
+
+function show_hidden(obj) {
+
+　　if(obj.style.display == 'block') {
+
+　　 obj.style.display = 'none';
+
+　　} else {
+
+　　　　　obj.style.display = 'block';
+
+　　}
+
+}
+
+var sh = document.getElementById("play");
+
+sh.onclick = function() {
+
+var d1 = document.getElementById("d1");
+
+var d2 = document.getElementById("d2");
+
+show_hidden(d1);
+
+show_hidden(d2);
+
+return false;
+
+}
+</script>
+<!--end-->
+<script>
+/*change*/
+$(function(){
+  $('.change').toggle(function() {
+    $(this).addClass('changeBg_1');
+  }, function() {
+     $(this).removeClass('changeBg_1');
+  });
+   
+})
+	$(function(){
+  $('.change_1').toggle(function() {
+    $(this).addClass('changeBg');
+  }, function() {
+     $(this).removeClass('changeBg');
+  });
+   
+})
+</script>
+<script src="js/main.js" type="text/javascript"></script>
+</html>

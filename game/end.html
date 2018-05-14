@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<link href="css/nav.css" rel="stylesheet" type="text/css" />
+<title>最后一局</title>
+<script type="text/javascript">  
+  var phoneWidth=parseInt(window.screen.width);  
+  var phoneScale=phoneWidth / 640;  
+  var ua=navigator.userAgent;  
+  if (/Android (\d+\.\d+)/.test(ua)) {  
+  var version=parseFloat(RegExp.$1);  
+  if (version > 2.3) {  
+    document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');  
+  } else {  
+    document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');  
+  }  
+  } else {  
+  document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');  
+  }  
+</script>
+</head>
+<body>
+	<div class="w640">
+		<div class="end">
+			<div class="wz">
+				已经找到<a>9</a>个茬
+			</div>
+			<div class="wz1">
+				平均手速：<a>2.53秒</a>
+			</div>
+			<a href=""><div class="back">
+			</div></a>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<link href="css/nav.css" rel="stylesheet" type="text/css" />
+<title>游戏攻略</title>
+<script type="text/javascript">  
+  var phoneWidth=parseInt(window.screen.width);  
+  var phoneScale=phoneWidth / 640;  
+  var ua=navigator.userAgent;  
+  if (/Android (\d+\.\d+)/.test(ua)) {  
+  var version=parseFloat(RegExp.$1);  
+  if (version > 2.3) {  
+    document.write('<meta name="viewport" content="width=640, minimum-scale=' + phoneScale + ', maximum-scale=' + phoneScale + ', target-densitydpi=device-dpi">');  
+  } else {  
+    document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');  
+  }  
+  } else {  
+  document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');  
+  }  
+</script>
+</head>
+<body>
+	<div class="w640">
+		<div class="game_gl">
+			<div class="bg">
+				<div class="music"><img src="images/music_on.png"></div>
+			</div>
+			<div class="ti">
+			</div>
+			<div class="gl_1">
+				<div class="gl_n">
+					<p>游戏攻略</p>
+					<ul>
+						<li>
+							<span class="y_1">01</span>
+							<div class="y_2">每关一张图，每张图上下两部分有3处不同，每三关为一局；</div>
+							<img src="images/y_1.png" class="y_3">
+						</li>
+						<li>
+							<span class="y_1">02</span>
+							<div class="y_2">1M流量可兑换10个体力，每局需消耗一个体力；</div>
+							<img src="images/y_2.png" class="y_3">
+						</li>
+						<li>
+							<span class="y_1">03</span>
+							<div class="y_2">每日参与游戏可获赠3个体力，每日首次闯关成功可获赠1个放大镜；</div>
+							<img src="images/y_3.png" class="y_3">
+						</li>
+						<li>
+							<span class="y_1">04</span>
+							<div class="y_2">每局限时2分钟，每按错一次则扣10秒，超时则闯关失败；</div>
+							<img src="images/y_4.png" class="y_3" style="margin-right: 20px;">
+						</li>
+						<li>
+							<span class="y_1">05</span>
+							<div class="y_2">1M流量可加时10秒，1M流量可兑换1个放大镜；</div>
+							<img src="images/y_5.png" class="y_3" style="margin-right: 30px;">
+						</li>
+						<li>
+							<span class="y_1">06</span>
+							<div class="y_2">游戏可暂停，暂停时长超过5分钟，则本局闯关失败；</div>
+							<img src="images/y_6.png" class="y_3" style="margin-right: 15px;"
+						</li>
+						<li>
+							<span class="y_1">07</span>
+							<div class="y_2">本活动最终解释权归平安银行所有。</div>
+							<img src="images/y_7.png" class="y_3">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
