@@ -190,7 +190,7 @@ body a {
 /* -------------------------------------------------------------------------------- */
 
 .homebg {
-	background: url(../images/homebg.jpg) top repeat-x;
+	background:#fff;
 }
 .section {
 	position: relative;
@@ -403,9 +403,9 @@ body a {
 	float: left;
 	width: 260px;
 	margin-left: 20px;
-	background: url(../images/logo_big.png) center no-repeat;
+	background: url(../images/logo_b.png) center no-repeat;
 	background-position: left;
-	height: 86px;
+	height: 66px;
 	cursor: pointer;
 	-webkit-tap-highlight-color: rgba(255,0,0,0);
 }
@@ -442,7 +442,7 @@ body a {
 }
 .main-menu > li > a {
 	display: block;
-	padding: 36px;
+	padding: 24px;
 	font-size: 0.85em;
 	color: #333;
 	text-transform: uppercase;
@@ -615,17 +615,17 @@ body a {
 	border-radius: 64px;
 	width: 64px;
 	height: 64px;
-	margin: 24px 36px 0px 36px;
+	margin: 15px 8px 0px 8px;
 	
 }
 .authname{
 	position: absolute;
-	margin: 44px 0 0 128px;
+	margin: 40px 0 0 80px;
     font-weight: bold;
 }
 .post-container {
 	width: 33.3%;
-	height: 560px;
+	height: 400px;
 	overflow: hidden;
 	padding: 0 1.5% 0 1.5%;
 	margin: 0 0 1% 0;
@@ -636,14 +636,14 @@ body a {
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	margin-top: 20px;
+	margin-top: 5px;
 	background-size: 40%;
 }
 .post-container:hover .post-card {
 	-webkit-box-shadow: 0 14px 24px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0 14px 24px rgba(0,0,0,0.1);
 	box-shadow: 0 14px 24px rgba(0,0,0,0.1);
-	margin-top: 10px;
+	margin-top: 20px;
 	background-size: 10%;
 }
 .cg {
@@ -683,11 +683,10 @@ body a {
 }
 .post-card {
 	width: 100%;
-	height: 520px;
+	height: 400px;
 	overflow: hidden;
 	position: relative;
-	background: #fff;
-	border-radius: 3px;
+	background: #e9e9e9;
 	-webkit-box-shadow: 0 7px 24px rgba(0,0,0,0.05);
 	-moz-box-shadow: 0 7px 24px rgba(0,0,0,0.05);
 	box-shadow: 0 7px 24px rgba(0,0,0,0.05);
@@ -721,7 +720,8 @@ body a {
 /*  Featured media  ----------------------------------------- */
 
 .featured-media {
-	border-radius: 3px;
+	padding: 18px;
+	padding-top:20px;
 }
 .featured-media a, .featured-media img, .featured-media iframe {
 	display: block;
@@ -760,7 +760,7 @@ body a {
 
 .post-header {
 	position: relative;
-	padding: 4% 36px 4% 36px;
+	padding: 3% 8px 4% 16px;
 }
 
 .post-header .post-title {
@@ -779,10 +779,10 @@ body a {
 	color: #0087ff;
 }
 .post-excerpt {
-	padding: 0 10% 10% 10%;
+	padding: 0 4% 0% 4%;
 }
 .post-excerpt p {
-	font-size: 0.95em;
+	font-size: 1em;
 	line-height: 150%;
 	color: #666;
 	height: auto;
@@ -791,8 +791,6 @@ body a {
 	margin-top: 1em;
 }
 .post-excerpt .more-link {
-	display: block;
-	margin-top: 10px;
 }
 .post-excerpt .more-link:hover {
 	text-decoration: underline;
@@ -803,7 +801,6 @@ body a {
 	border-top: 1px solid #f6f6f6;
 }
 .posts .post-meta {
-	background: #ffffff;
 	position: absolute;
 	width: 100%;
 	bottom: 0;
@@ -2471,7 +2468,7 @@ img#wpstats {
 	background-image: url(../images/spyglass-w.png);
 }
 .dclogo {
-	background-image: url(../images/logo_little.png);
+	background-image: url(../images/logo_l.png);
 	background-size: 100%;
 }
 .post .sticky-post {
@@ -2601,10 +2598,10 @@ input#url:focus {
 }
 }
 
-
+.banner img{width: 100%}
 @media (max-width: 1440px) {
 .wrapper.section {
-	padding: 5% 0;
+	padding: 0% 0;
 }
 /* pagination */
 	
@@ -2629,7 +2626,7 @@ input#url:focus {
 /* main content */
 	
 .section-inner.content {
-	max-width: 94%;
+	max-width: 100%;
 }
 .post-container {
 	width: 50%;
@@ -2689,7 +2686,7 @@ body.single .content {
 }
 .nav-toggle {
 	display: block;
-	padding: 35px 0;
+	padding: 25px 0;
 	-webkit-tap-highlight-color: rgba(255,0,0,0);
 }
 .nav-toggle .bar {
@@ -2747,13 +2744,13 @@ body.single .content {
 /* structure */
 	
 .wrapper.section {
-	padding: 4% 0;
+	padding: 0% 0;
 }
 .section-inner {
 	max-width: 92%;
 }
 .section-inner.content {
-	max-width: 97%;
+	max-width: 100%;
 }
 /* header */
 	
@@ -3235,9 +3232,8 @@ body {
 /* structure */
 	
 .wrapper.section {
-	padding: 25px 0;
 }
-.post-header,  .single .post-content,  .post-excerpt,  .content .comments,  div#disqus_thread,  .comment-respond,  .post-quote,  .post-link {
+/*.post-header,  .single .post-content,  .post-excerpt,  .content .comments,  div#disqus_thread,  .comment-respond,  .post-quote,  .post-link {
 	padding: 7.5% 6%;
 }
 /* header */
@@ -3250,7 +3246,7 @@ body {
 	margin-top: -17px;
 }
 .nav-toggle {
-	padding: 35px 0;
+	padding: 25px 0;
 }
 .search-toggle {
 	height: 59px;
@@ -3267,7 +3263,7 @@ body {
 /* main content */
 	
 .section-inner.content {
-	max-width: 92%;
+	max-width: 100%;
 }
 .cg .cgcontent {
 	width: 100%;
