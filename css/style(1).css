@@ -2437,11 +2437,11 @@ p.form-submit {
 	line-height: 38px;
 	font-weight: 700;
 	letter-spacing: 1px;
-	padding: 0 10px 0 0px;
+	padding: 0 15px 0 0px;
 }
 .credits-left {
 	float: left;
-	margin-left: 10px;
+	margin-left: 15px;
 	height: 38px;
 }
 .credits a {
