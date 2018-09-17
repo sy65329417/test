@@ -2437,12 +2437,11 @@ p.form-submit {
 	line-height: 38px;
 	font-weight: 700;
 	letter-spacing: 1px;
-	padding: 0 0 0 54px;
+	padding: 0 10px 0 0px;
 }
 .credits-left {
 	float: left;
-	margin-left: 20px;
-	background: url(../images/1dclogo.png) left no-repeat;
+	margin-left: 10px;
 	height: 38px;
 }
 .credits a {
